@@ -32,7 +32,7 @@ The system emphasizes:
 - Cleans/normalizes text before sending to AI  
 - Automatically handles messy, differently formatted resumes  
 
-### ✔ Smart Resume Suggestions  
+### Smart Resume Suggestions  
 Given a resume + job description, backend returns:
 
 ```json
@@ -186,11 +186,11 @@ pytest -vv
 
 This project handles resumes →  make strong design choices:
 
-### ✔ No resume text is ever logged  
-### ✔ HF token is stored only in `.env`  
-### ✔ Backend does short-lived, in-memory processing  
-### ✔ Frontend-to-backend communication uses structured JSON  
-### ✔ AI prompts include anti-hallucination constraints  
+### No resume text is ever logged  
+### HF token is stored only in `.env`  
+### Backend does short-lived, in-memory processing  
+### Frontend-to-backend communication uses structured JSON  
+### AI prompts include anti-hallucination constraints  
 
 ---
 
